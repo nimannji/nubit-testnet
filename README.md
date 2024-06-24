@@ -45,7 +45,8 @@ curl -sL1 https://nubit.sh | bash
 ```console
 sudo cat $HOME/nubit-node/mnemonic.txt
 ```
-## Open Screen
+## Find pub key
+>first you should open the screen, then stop the node, and then run the node again
 ```console
 screen -x nubit
 ```
