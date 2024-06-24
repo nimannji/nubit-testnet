@@ -1,8 +1,6 @@
 ![GO5Sm3kWkAA-rsv](https://github.com/0xmoei/nubit-testnet/assets/90371338/24288f69-5e2e-4509-a589-c5b6e2bdd622)
 
-## Official Links
- * [Moei Twitter](https://twitter.com/0xMoei)
- * [Nubit Discord](https://discord.gg/nubit)
+The original version created by 0xmoei
    
 <h1 align="center"> Nubit Incentivized Alpha Testnet </h1>
 
@@ -27,7 +25,9 @@ A native Bitcoin DA layer has announced that its Alpha testnet incentive program
 
 ## Dependecies
 ```console
-sudo apt-get update && sudo apt-get upgrade -y 
+sudo apt-get update && sudo apt-get upgrade -y
+```
+```console
 sudo apt-get install curl screen git-all build-essential glibc-source pkg-config libssl-dev clang git-lfs -y
 ```
 ## Install & Run
@@ -44,6 +44,15 @@ curl -sL1 https://nubit.sh | bash
 ```console
 sudo cat $HOME/nubit-node/mnemonic.txt
 ```
+## Open Screen
+```console
+screen -x nubit
+```
+>press ctrl+C to stop the node
+```console
+curl -sL1 https://nubit.sh/ | bash
+```
+>press ctrl+A+D for minimizing the screen
 
 ## Faucet
 > Get Your address [Here](https://alpha.nubit.org)
@@ -58,6 +67,8 @@ screen -r nubit
 # minimze again
 CTRL + A + D
 ```
+
+
 
 ## Optional: Restart Node (if needed)
 ```console
